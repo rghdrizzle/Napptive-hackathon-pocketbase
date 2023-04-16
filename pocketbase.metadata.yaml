@@ -1,0 +1,16 @@
+apiVersion: core.napptive.com/v1alpha1
+kind: ApplicationMetadata
+name: "PocketBase"
+version: "v1"
+description: Pocketbase-Open source backend in 1 file
+keywords:
+  - "pocketbase"
+  - "database"
+  - "backend"
+license: "SSPLv1"
+url: "https://pocketbase.io/"
+doc: "https://pocketbase.io/docs/"
+logo:
+  - src: "https://pocketbase.io/images/logo.svg"
+    type: "image/png"
+    size: "120x120"
