@@ -15,6 +15,8 @@ The Napptive playground gives instant access to a cloud-native application platf
 Once you have an active account, you are ready to deploy our application. The simplest way is to leverage our catalog which provides a collection of OAM applications that are ready to be used.  Lets deploy Pocketbase using catalog.
 First, list the available applications and select the version to be deployed. Click on the upper left hand corner icon to list all the available applications. By default the available apps list and the summary will be shown as you can see in the below picture. Click on the Pocketbase application of the Napptive catalog namespace, then select the tag to be deployed, (the active one appears with the aquamarine background) and click on the Deploy button at the top right to get to the app deploy configuration screen. In the “Deploy” step screen you can set different elements for the application deployment
 To open the application, click on the endpoint button in the application information. (Make sure to add /_/ at the end of the endpoint )
+This is the page that you should be getting after loginng in :
+<img src="https://github.com/rghdrizzle/Napptive-hackathon-pocketbase/blob/main/Screenshot%20(91).png">
 
 
 Now To get started with PocketBase, you need to sign up for an account at the endpoint to create an admin account.
@@ -23,12 +25,14 @@ PocketBase provides a RESTful API for interacting with your database. You can us
 To get started with the API, you can refer to the documentation available at https://www.pocketbase.io/docs.
 
 ## Features:
-PocketBase provides a simple and intuitive web-based dashboard for managing your database.
-You can create, read, update, and delete data using the RESTful API.
-PocketBase allows you to store JSON documents, which can be nested and have any number of fields.
-You can define indexes on fields to enable fast searching and querying of your data.
-PocketBase provides a secure and reliable hosting environment for your database.
-
+<ul>
+<li> User-friendly interface: Pocketbase has a clean, intuitive interface that makes it easy to manage your data. You don't need to have any technical knowledge to get started with it.</li>
+    <li>Cloud-based storage: All data is stored in the cloud, which means you can access it from anywhere, at any time, as long as you have an internet connection.</li>
+    <li>Security: Pocketbase employs industry-standard security measures to ensure that your data is safe and secure.</li>
+    <li>Customizable fields: You can create custom fields to suit your specific needs and organize your data in a way that makes sense for your business.</li>
+    <li>Automated backups: Pocketbase automatically backs up your data, so you don't have to worry about losing anything.</li>
+    <li>Collaboration: You can collaborate with team members and share data securely.</li>
+   </ul>
 ## Pricing:
 PocketBase offers a range of pricing plans to suit different needs and budgets.
 The free plan allows you to create one database with up to 1000 documents and 10 MB of storage.
